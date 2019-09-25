@@ -1,0 +1,8 @@
+>>> from classpracticeapp.models import House
+>>> traphouse = House(address = '201 Poplar', bedrooms = 3, bathrooms = 1, squarefeet = 1200)
+>>> traphouse.save()
+>>> traphouse
+<House: House object (5)>
+>>> traphouse.address
+'201 Poplar'
+>>>
